@@ -1,0 +1,3 @@
+<div class="item-display">
+  <p><a routerLink="/shop/info/{{item.id}}">{{item.name}}</a> | {{item.price | currency}}</p> <button (click)="this.cartService.addToCart(item)">ADD TO CART</button>
+</div>

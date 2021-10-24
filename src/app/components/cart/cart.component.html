@@ -1,0 +1,4 @@
+<h1>CART {{!cart.length ? " IS EMPTY" : ""}}</h1>
+<ul *ngIf="cart.length">
+  <li class="item-display" *ngFor="let cartItem of cart"><p><a routerLink="/shop/info/{{cartItem.item.id}}">{{cartItem.item.name}}</a> | {{cartItem.id}} | {{cartItem.item.price | currency}}</p><button (click)="deleteItem(cartItem.id)">DELETE</button></li>
+</ul>

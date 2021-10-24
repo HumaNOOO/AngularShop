@@ -1,0 +1,27 @@
+#navbar {
+  background-color: #00468f;
+  padding: 15px;
+  border-bottom: 2px solid #00258f;
+}
+
+a {
+  padding: 10px;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #00258f;
+  transition: background-color 0.2s linear;
+}
+
+a:hover {
+  background-color: #00258f;
+}
+
+.active {
+  background-color: #00258f;
+}
+
+#navbar > a:not(:last-child) {
+  margin-right: 10px;
+}

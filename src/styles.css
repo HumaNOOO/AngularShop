@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: #343434;
+  margin: 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+  padding: 5px;
+}
+
+li {
+  padding: 10px;
+}
+
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ccc;
+}
+
+.item-display {
+  background-color: #222;
+  font-size: 20px;
+  padding: 10px;
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #151515;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+button {
+  color: white;
+  background-color: #222222;
+  border: 1px solid #151515;
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 0.1s linear;
+}
+
+button:hover {
+  background-color: #151515;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+a:hover {
+  color: #00468f;
+}
+
+a:link {
+  text-decoration: underline;
+}
+
+.item-display > p {
+  margin: 0;
+}
